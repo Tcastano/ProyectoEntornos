@@ -6,11 +6,11 @@
 #calculadora{
     align-content: center;
     background-color: rgb(0, 0, 0);
-    margin: 25px;
+    margin-left: 400px;
     padding: 12px;
     display: grid;
     width: 600px;
-    height: 100vh;
+    height: 95vh;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,1fr);
 
