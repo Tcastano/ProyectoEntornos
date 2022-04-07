@@ -24,12 +24,13 @@ button{
     width: 80px;
     height: 80px;
     border-radius: 62px;
+    font-size: 25px;
 }
 button:hover{
     filter: brightness(90%);
 }
 .operaciones{
-    background-color: orangered;
+    background-color: rgb(255, 111, 59);
 }
 input{
     margin-left: 130px;
