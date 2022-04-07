@@ -17,9 +17,11 @@ place-content: center;
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4,85px);
+    padding: 8px;
     background-color: rgb(131, 131, 131);
 }
 button{
+    margin: 8px;
     border: 1px #fff;
     width: 80px;
     height: 80px;
