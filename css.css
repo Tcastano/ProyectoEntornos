@@ -12,10 +12,10 @@ place-content: center;
 #calculadora {
     background-color: rgb(131, 131, 131);
     border-radius: 15px;
-    max-width: 405px;
     padding: 5px;
 }
 #botones{
+    margin: 8px;
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4,85px);
@@ -33,16 +33,24 @@ button{
 button:hover{
     filter: brightness(90%);
 }
+button:active{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
 .operaciones{
     background-color: rgb(255, 93, 35);
 }
 input{
-    margin-top: 7px;
+
+    margin-top: 10px;
     border: 0;
     padding: 7px;
     font-size: 25px;
     text-align: right;
-    width: 100%;
+    width: 92%;
     border-radius: 32px;
     display: inline-block;
+    margin: 13px;
+
 }
