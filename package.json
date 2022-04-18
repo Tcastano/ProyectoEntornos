@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "name": "calculadora",
+  "description": "Tizziano fenomeno",
+  "version": "1.0.0",
+  "main": "js.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tcastano/ProyectoEntornos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tcastano/ProyectoEntornos/issues"
+  },
+  "homepage": "https://github.com/Tcastano/ProyectoEntornos#readme"
 }
