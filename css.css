@@ -14,6 +14,12 @@ body{
     border-radius: 15px;
     padding: 5px;
 }
+#pantalla{
+    min-height: 12vh;
+    background-color: white;
+    margin: 8px;
+    border-radius: 20px;
+}
 #botones{
     margin: 8px;
     border-radius: 20px;
