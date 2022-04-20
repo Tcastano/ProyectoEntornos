@@ -1,4 +1,5 @@
 class Operaciones{
+
     sumar(numero1, numero2){
         return numero1 + numero2;
     }
@@ -11,6 +12,5 @@ class Operaciones{
     dividir(numero1, numero2){
         return numero1 / numero2;
     }
-    
 }
-module.export = new Operaciones;
+module.exports = new Operaciones;
