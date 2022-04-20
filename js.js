@@ -4,4 +4,6 @@ function prueba(){
     console.log('pruebaaa');
 }
 
-uno.onclick
+uno.onclick = function(e){
+    resultado.textContent = resultado.textContent  + "1";
+}
