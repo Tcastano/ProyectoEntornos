@@ -1,9 +1,8 @@
-const { test } = require("@jest/globals");
+const Operaciones = require ("./Operaciones")
 
-
- describe("funcion uno", () => {
-    test("Comprobación de uno", () => {
-         expect(true).toBe(true);
+describe("calculadora", ()=>{
+    test("sumar", ()=>{
+        expect(Operaciones.sumar(1, 2)).toBe(3);
     });
+});
 
-  
