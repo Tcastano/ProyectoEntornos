@@ -1,4 +1,5 @@
 class Operaciones{
+
     sumar(numero1, numero2){
         return numero1 + numero2;
     }
@@ -12,3 +13,4 @@ class Operaciones{
         return numero1 / numero2;
     }
 }
+module.exports = new Operaciones;

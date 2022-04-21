@@ -17,7 +17,8 @@ class Display {
     computar(tipo) {
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
-        this.valorAnterior = this.valorActual || this.valorAnterior;
+        if(!isNaN(this.valorActual)) 
+            this.valorAnterior = this.valorActual;
         this.valorActual = '';
         this.imprimirValores();
     }
@@ -29,6 +30,8 @@ class Display {
     }
 
     imprimirValores() {
+        console.log("Actual: " + this.valorActual);
+        console.log("Anterior: " + this.valorAnterior);
         this.displayValorActual.textContent = this.valorActual;
         this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.signos[this.tipoOperacion] || ''}`;
     }

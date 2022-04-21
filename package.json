@@ -8,7 +8,8 @@
   "main": "js.js",
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
