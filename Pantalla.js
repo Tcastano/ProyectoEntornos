@@ -1,4 +1,4 @@
-class Display {
+class Pantalla {
     constructor(displayValorAnterior, displayValorActual) {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
@@ -13,6 +13,7 @@ class Display {
             restar: '-', 
         }
     }
+
     computar(tipo) {
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
@@ -41,5 +42,6 @@ class Display {
 
         if( isNaN(valorActual)  || isNaN(valorAnterior) ) return
         this.valorActual = this.calculador[this.tipoOperacion](valorAnterior, valorActual);
+       
     }
 }
