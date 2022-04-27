@@ -24,4 +24,15 @@ describe("calculadora", ()=>{
     });
 });
 
+describe("calculadora", ()=>{
+    test("potencia", ()=>{
+        expect(Operaciones.potencia(2, 2)).toBe(4);
+    });
+});
+
+describe("calculadora", ()=>{
+    test("raiz", ()=>{
+        expect(Operaciones.raiz(4)).toBe(2);
+    });
+});
 
