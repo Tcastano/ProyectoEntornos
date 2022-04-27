@@ -1,8 +1,7 @@
-# ProyectoEntornos
-Tizziano fenomeno
+# CALCULADORA
 
-Habia issues
+<p>Proyecto de Entornos de Desarrollo. Realización de una calculadora funcional con JavaScript.</p>
 
+<p>Secciones del proyecto:</p>
 
-demasiadas issues 
 
