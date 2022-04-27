@@ -11,6 +11,8 @@ class Pantalla {
             dividir: '%',
             multiplicar: 'x',
             restar: '-', 
+            raiz:'√ ',
+            potencia:'^'
         }
     }
 
