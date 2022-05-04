@@ -46,4 +46,8 @@ class Pantalla {
         this.valorActual = this.calculador[this.tipoOperacion](valorAnterior, valorActual);
        
     }
+    borrar() {
+        this.valorActual = this.valorActual.toString().slice(0,-1);
+        this.imprimirValores();
+    }
 }
