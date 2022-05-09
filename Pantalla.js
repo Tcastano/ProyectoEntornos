@@ -16,7 +16,7 @@ class Pantalla {
         }
     }
 
-    computar(tipo) {
+    computar(tipo) {   
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
         if(!isNaN(this.valorActual)) 
@@ -47,7 +47,9 @@ class Pantalla {
        
     }
     borrar() {
-        this.valorActual = this.valorActual.toString().slice(0,-1);
+        this.valorActual = '';
+        this.valorAnterior = '';
+        this.tipoOperacion = undefined;
         this.imprimirValores();
     }
 }
