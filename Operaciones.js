@@ -12,8 +12,8 @@ class Operaciones{
     dividir(numero1, numero2){
         return numero1 / numero2;
     }
-    raiz(numero1){
-        return Math.sqrt(numero1);
+    raiz(numero1, numero2){
+        return Math.pow(numero1, 1/numero2);
     }
     potencia(numero1, numero2){
         return Math.pow(numero1, numero2);
